@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="content">
       <h1>Magic Match</h1>
-      <button onClick={shuffleCard}> New Game</button>
+      <button onClick={shuffleCard}> New Game:</button>
       <div className="card-grid">
         {cards.map((card) => (
           <div className="card" key={card.id}>
